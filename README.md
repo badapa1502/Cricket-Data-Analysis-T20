@@ -7,6 +7,18 @@ The goal of this study is to investigate the influence of captaincy styles, cate
 
 This question is essential for understanding whether a particular captaincy style is more advantageous in specific scenarios or against certain opponents and provides insights into optimal leadership strategies in T20 cricket.
 
+## Data Visualisation Tools explored:
+1. Bubble plot: Visualise Indian Captaincy Styles vs Powerplay Performance
+2. (Interactive) Radar Chat: Visualises the performance metrics of the captains based on tenure (matches captained), tosses won (percetange) and match wins (percentage).
+3. Box plot: Visualising the effect of captaincy style on the match margins, both for matches that are won and lost.
+4. Violin plot: Highlights the performance of the Indian cricket team under aggressive and defensive captaincy styles, focusing on powerplay performance (both wickets and runs) of the Indian and opponent team, and match margins.
+5. Pair Plots (with KDE): While distinguishing between Aggressive and Defensive captaincy styles, the pair plot shows associations between Margin (in runs), Year, and Toss Won by India.
+6. t-SNE plot: Visualises the clustering of Indian cricket captains based on their performance metrics (Win Percentage, Matches Won, Matches Lost, and Relative Opponent Strength) and their captaincy styles.
+7. Interactive Time Series plot: Illustrates how the captaincy styles and their effect has evolved over time.
+8. Heatmap: India's win ratios against opponents for agressive and defensive styles, showing the effect of captaincy style on team performance against other teams.
+9. World Map: Visualise India's wins by aggressive and defensive captains.
+10. Sankey Diagram: provides a detailed flow visualization of the relationship between captaincy styles, toss outcomes, toss decisions, and match results in T20 International matches.
+
 ## Data Description
 ### Overview
 The dataset used in this project comprises match-level details of T20 International matches played by Indian cricket team between 2006 and 2024, sourced from ESPN Cricinfo. After comprehensive cleaning, the final dataset included 230 rows of match details with detailed match and captaincy-specific data, along with derived performance metrics. This cleaned dataset serves as the foundation for analyzing the influence of captaincy style on team performance.
