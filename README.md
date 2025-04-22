@@ -19,3 +19,9 @@ The dataset includes the following key attributes:
 
 ### Suitability of Dataset:
 This dataset provides a comprehensive view of match-level details, leadership styles, and team performance. By incorporating derived metrics like Powerplay Impact and Relative Opponent Strength, it enables an in depth analysis of how captaincy styles influence various performance dimensions. The temporal range (2006–2024) ensures a broad perspective, covering multiple captains and playing conditions.
+
+## Data Acquisition
+1. Match Details Scraping: Utilized BeautifulSoup to scrape match-level data from ESPN Cricinfo's year-wise records (2006–2024) Additionally, geographic information, such as the longitudinal and latitudinal coordinates of match venues, was retrieved using the Google Maps API, facilitated by an API key. This data was used to create an informative world map plot, enriching the visual analysis of match locations.
+2. Captaincy Data Scraping: Extracted captaincy performance data (tenure, matches, and win percentages) from ESPN Cricinfo's individual captaincy records.
+3. Derived Data: Merged datasets to map captaincy styles to individual matches. And calculated advanced features like Powerplay Impact and Relative Opponent Strength.
+4. Technical Complexity: First we scraped data dynamically for multiple years and pages. Then extracted powerplay performance and toss outcomes from scorecard URLs. And mapped captaincy styles using custom logic and external datasets.
